@@ -1,0 +1,5 @@
+@media (width >= 1024px) {
+  .max-width {
+    max-width: 800px;
+  }
+}

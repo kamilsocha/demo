@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <!-- Header -->
+  <header class="bg-black text-white p-4 shadow-md">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Demo</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="hover:text-gray-300">Strona główna</a></li>
+          <li><a href="#" class="hover:text-gray-300">Oferta</a></li>
+          <li><a href="#" class="hover:text-gray-300">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="min-h-screen mx-auto my-4 md:my-8 px-4 flex flex-col items-center max-width">
+    <section class="w-full flex flex-col items-center">
+      <img src="/images/2.jpg" alt="Profile Photo" class="w-full object-cover object-center rounded-lg mb-4 shadow-md" style="max-height: 460px;">
+      <div class="text-center">
+        <h2 class="text-2xl font-bold mb-2">Śp. Jan Kowalski (1935-2023) *</h2>
+        <p class="text-justify">Jan Kowalski urodził się 15 kwietnia 1935 roku w małej wsi na Mazowszu. Wychowany w tradycyjnej rodzinie wiejskiej, szybko przejawiał zainteresowanie literaturą i historią, co skłoniło go do podjęcia studiów humanistycznych. Po ukończeniu filologii polskiej na Uniwersytecie Warszawskim, Jan poświęcił swoje życie nauczaniu w szkole podstawowej, gdzie z pasją dzielił się swoją wiedzą i miłością do literatury z kolejnymi pokoleniami uczniów.
+
+          Po przejściu na emeryturę Jan z żoną Heleną spędził wiele lat na podróżach po Polsce i Europie, odkrywając nowe miejsca i zgłębiając lokalne kultury. Jego zainteresowania obejmowały również fotografię, która stała się jego ulubionym hobby podczas emerytury.
+          
+          Jan Kowalski był człowiekiem o wielkim sercu i głębokiej wierze. Jego rodzina, uczniowie oraz przyjaciele pamiętają go nie tylko jako nauczyciela i mentora, ale przede wszystkim jako człowieka, który potrafił cieszyć się życiem i dzielić się swoją pasją ze światem.
+          
+          Zmarł 10 lipca 2023 roku, pozostawiając po sobie piękny ślad w sercach tych, których miał przyjemność spotkać i których życie mógł dotknąć swoją obecnością.</p>
+      </div>
+    </section>
+
+    <section class="my-4 w-full">
+      <h3 class="text-xl font-bold mb-4">Galeria</h3>
+      <div class="flex flex-col space-y-4">
+        <div>
+          <img src="images/1.webp" alt="Photo 1" class="w-full object-cover rounded-lg shadow-md" style="max-height: 460px;">
+        </div>
+        <div>
+          <img src="images/4.webp" alt="Photo 2" class="w-full object-cover object-top rounded-lg shadow-md" style="max-height: 460px;">
+        </div>
+        <div>
+          <img src="images/5.jpg" alt="Photo 3" class="w-full object-cover rounded-lg shadow-md" style="max-height: 520px;">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-black text-white p-4 mt-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; Demo. Wszelkie prawa zastrzeżone.</p>
+    </div>
+  </footer>
+</body>
+</html>
